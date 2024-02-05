@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reaction_systems"
+version = "0.0.1"
+authors = [
+  { name="Gonzalo Martínez Fernández", email="gonmarfer2@alum.us.es" },
+]
+description = "A Reaction System Package for Python"
+readme = "README.md"
+requires-python = ">=3.11.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: CCBY4.0",
+    "Operating System :: OS Independent",
+]
